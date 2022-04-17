@@ -1,0 +1,26 @@
+
+li#accordion-section-blogspace_premium .accordion-section-title,
+li#accordion-section-blogspace_premium.control-section-blogspace-button:hover .accordion-section-title {
+	color: #eb4449;
+}
+li#accordion-section-blogspace_premium.control-section-blogspace-button {
+	border-top: 1px solid #eb4560;
+	border-bottom: 1px solid #eb4560;
+}
+
+.rtl .control-section-blogspace-button .accordion-section-title .button {
+	margin-left: 0;
+	margin-right: 8px;
+}
+
+.control-section-blogspace-button .accordion-section-title .button {
+	margin-top: -4px;
+	margin-left: 8px;
+	font-weight: 600;
+	background: linear-gradient(90deg,#eb4449 35%,#eb4560 100%);
+	border-color: #eb4449;
+	color: #fff;
+}
+.control-section-blogspace-button .accordion-section-title .button:focus {
+	box-shadow: 0 0 0 1px #fff, 0 0 0 3px #eb4449;
+}
